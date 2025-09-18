@@ -1,0 +1,304 @@
+{
+  "drugs": [
+    {
+      "id": "1",
+      "companyName": "Pfizer Inc.",
+      "drugName": "Lipitor",
+      "fdaNdcCode": "0071-0155"
+    },
+    {
+      "id": "2",
+      "companyName": "Johnson & Johnson",
+      "drugName": "Tylenol",
+      "fdaNdcCode": "0045-0001"
+    },
+    {
+      "id": "3",
+      "companyName": "Merck & Co.",
+      "drugName": "Keytruda",
+      "fdaNdcCode": "0006-3029"
+    },
+    {
+      "id": "4",
+      "companyName": "Bristol-Myers Squibb",
+      "drugName": "Opdivo",
+      "fdaNdcCode": "0003-0284"
+    },
+    {
+      "id": "5",
+      "companyName": "Novartis AG",
+      "drugName": "Gleevec",
+      "fdaNdcCode": "0078-0403"
+    },
+    {
+      "id": "6",
+      "companyName": "Roche Holding AG",
+      "drugName": "Herceptin",
+      "fdaNdcCode": "0004-1198"
+    },
+    {
+      "id": "7",
+      "companyName": "AbbVie Inc.",
+      "drugName": "Humira",
+      "fdaNdcCode": "0074-3799"
+    },
+    {
+      "id": "8",
+      "companyName": "Amgen Inc.",
+      "drugName": "Enbrel",
+      "fdaNdcCode": "0055-0563"
+    },
+    {
+      "id": "9",
+      "companyName": "Gilead Sciences",
+      "drugName": "Truvada",
+      "fdaNdcCode": "0061-0894"
+    },
+    {
+      "id": "10",
+      "companyName": "GlaxoSmithKline",
+      "drugName": "Advair",
+      "fdaNdcCode": "0173-0715"
+    },
+    {
+      "id": "11",
+      "companyName": "Eli Lilly and Company",
+      "drugName": "Humalog",
+      "fdaNdcCode": "0002-7510"
+    },
+    {
+      "id": "12",
+      "companyName": "Sanofi",
+      "drugName": "Lantus",
+      "fdaNdcCode": "0088-2220"
+    },
+    {
+      "id": "13",
+      "companyName": "Biogen Inc.",
+      "drugName": "Tecfidera",
+      "fdaNdcCode": "0456-0810"
+    },
+    {
+      "id": "14",
+      "companyName": "Celgene Corporation",
+      "drugName": "Revlimid",
+      "fdaNdcCode": "0008-5991"
+    },
+    {
+      "id": "15",
+      "companyName": "Vertex Pharmaceuticals",
+      "drugName": "Kalydeco",
+      "fdaNdcCode": "0187-0001"
+    },
+    {
+      "id": "16",
+      "companyName": "Moderna Inc.",
+      "drugName": "mRNA-1273",
+      "fdaNdcCode": "0094-0306"
+    },
+    {
+      "id": "17",
+      "companyName": "Regeneron Pharmaceuticals",
+      "drugName": "Eylea",
+      "fdaNdcCode": "0169-7501"
+    },
+    {
+      "id": "18",
+      "companyName": "Alexion Pharmaceuticals",
+      "drugName": "Soliris",
+      "fdaNdcCode": "0469-0401"
+    },
+    {
+      "id": "19",
+      "companyName": "Incyte Corporation",
+      "drugName": "Jakafi",
+      "fdaNdcCode": "0187-0502"
+    },
+    {
+      "id": "20",
+      "companyName": "Genentech Inc.",
+      "drugName": "Avastin",
+      "fdaNdcCode": "0004-1102"
+    },
+    {
+      "id": "21",
+      "companyName": "Teva Pharmaceutical",
+      "drugName": "Copaxone",
+      "fdaNdcCode": "0093-7273"
+    },
+    {
+      "id": "22",
+      "companyName": "Takeda Pharmaceutical",
+      "drugName": "Entyvio",
+      "fdaNdcCode": "0187-2100"
+    },
+    {
+      "id": "23",
+      "companyName": "AstraZeneca",
+      "drugName": "Tagrisso",
+      "fdaNdcCode": "0310-0800"
+    },
+    {
+      "id": "24",
+      "companyName": "Bayer AG",
+      "drugName": "Xarelto",
+      "fdaNdcCode": "0264-7200"
+    },
+    {
+      "id": "25",
+      "companyName": "Boehringer Ingelheim",
+      "drugName": "Pradaxa",
+      "fdaNdcCode": "0597-0145"
+    },
+    {
+      "id": "26",
+      "companyName": "Daiichi Sankyo",
+      "drugName": "Effient",
+      "fdaNdcCode": "0469-5150"
+    },
+    {
+      "id": "27",
+      "companyName": "Eisai Co.",
+      "drugName": "Lenvima",
+      "fdaNdcCode": "0469-9800"
+    },
+    {
+      "id": "28",
+      "companyName": "Otsuka Pharmaceutical",
+      "drugName": "Abilify",
+      "fdaNdcCode": "0469-0395"
+    },
+    {
+      "id": "29",
+      "companyName": "Seattle Genetics",
+      "drugName": "Adcetris",
+      "fdaNdcCode": "51144-050"
+    },
+    {
+      "id": "30",
+      "companyName": "Shire plc",
+      "drugName": "Vyvanse",
+      "fdaNdcCode": "0074-4314"
+    },
+    {
+      "id": "31",
+      "companyName": "Jazz Pharmaceuticals",
+      "drugName": "Xyrem",
+      "fdaNdcCode": "0172-4600"
+    },
+    {
+      "id": "32",
+      "companyName": "Mylan N.V.",
+      "drugName": "EpiPen",
+      "fdaNdcCode": "0378-1000"
+    },
+    {
+      "id": "33",
+      "companyName": "Allergan plc",
+      "drugName": "Botox",
+      "fdaNdcCode": "0023-1145"
+    },
+    {
+      "id": "34",
+      "companyName": "Celgene Corporation",
+      "drugName": "Abraxane",
+      "fdaNdcCode": "0008-1001"
+    },
+    {
+      "id": "35",
+      "companyName": "Pharmacyclics",
+      "drugName": "Imbruvica",
+      "fdaNdcCode": "0187-0600"
+    },
+    {
+      "id": "36",
+      "companyName": "Medivation Inc.",
+      "drugName": "Xtandi",
+      "fdaNdcCode": "62935-500"
+    },
+    {
+      "id": "37",
+      "companyName": "Astellas Pharma",
+      "drugName": "Prograf",
+      "fdaNdcCode": "0469-0617"
+    },
+    {
+      "id": "38",
+      "companyName": "UCB S.A.",
+      "drugName": "Keppra",
+      "fdaNdcCode": "50474-925"
+    },
+    {
+      "id": "39",
+      "companyName": "Forest Laboratories",
+      "drugName": "Lexapro",
+      "fdaNdcCode": "0456-2010"
+    },
+    {
+      "id": "40",
+      "companyName": "Actelion Pharmaceuticals",
+      "drugName": "Tracleer",
+      "fdaNdcCode": "66215-101"
+    },
+    {
+      "id": "41",
+      "companyName": "Gilead Sciences",
+      "drugName": "Sovaldi",
+      "fdaNdcCode": "0061-0123"
+    },
+    {
+      "id": "42",
+      "companyName": "Biogen Inc.",
+      "drugName": "Spinraza",
+      "fdaNdcCode": "0456-1250"
+    },
+    {
+      "id": "43",
+      "companyName": "Vertex Pharmaceuticals",
+      "drugName": "Orkambi",
+      "fdaNdcCode": "0187-0002"
+    },
+    {
+      "id": "44",
+      "companyName": "Alexion Pharmaceuticals",
+      "drugName": "Ultomiris",
+      "fdaNdcCode": "0469-0500"
+    },
+    {
+      "id": "45",
+      "companyName": "Incyte Corporation",
+      "drugName": "Pemazyre",
+      "fdaNdcCode": "0187-0701"
+    },
+    {
+      "id": "46",
+      "companyName": "Regeneron Pharmaceuticals",
+      "drugName": "Dupixent",
+      "fdaNdcCode": "0169-7787"
+    },
+    {
+      "id": "47",
+      "companyName": "Moderna Inc.",
+      "drugName": "Spikevax",
+      "fdaNdcCode": "0094-0308"
+    },
+    {
+      "id": "48",
+      "companyName": "BioNTech SE",
+      "drugName": "Comirnaty",
+      "fdaNdcCode": "0069-1000"
+    },
+    {
+      "id": "49",
+      "companyName": "Seagen Inc.",
+      "drugName": "Padcev",
+      "fdaNdcCode": "51144-100"
+    },
+    {
+      "id": "50",
+      "companyName": "Kite Pharma",
+      "drugName": "Yescarta",
+      "fdaNdcCode": "0246-0100"
+    }
+  ]
+}
