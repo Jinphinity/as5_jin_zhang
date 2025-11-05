@@ -97,11 +97,6 @@ export default async function AdminPage() {
                       <button
                         type="submit"
                         className="bg-red-600 text-white px-3 py-1 rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium"
-                        onClick={(e) => {
-                          if (!confirm(`Are you sure you want to delete ${drug.drugName}?`)) {
-                            e.preventDefault();
-                          }
-                        }}
                       >
                         Delete
                       </button>

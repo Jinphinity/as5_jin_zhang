@@ -27,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <header className="bg-blue-600 text-white shadow-lg">
           <div className="container mx-auto px-4 py-6">
             <h1 className="text-2xl font-bold">Drug Management System</h1>
@@ -41,26 +39,17 @@ export default function RootLayout({
           <div className="container mx-auto px-4">
             <ul className="flex space-x-6 py-4">
               <li>
-                <Link 
-                  href="/" 
-                  className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded"
-                >
+                <Link href="/" className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded">
                   Home
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/drugs" 
-                  className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded"
-                >
+                <Link href="/drugs" className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded">
                   Drugs
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/admin" 
-                  className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded"
-                >
+                <Link href="/admin" className="hover:text-blue-200 transition-colors duration-200 px-3 py-2 rounded">
                   Admin
                 </Link>
               </li>
@@ -68,19 +57,15 @@ export default function RootLayout({
           </div>
         </nav>
 
-        <main className="flex-1 container mx-auto px-4 py-8 bg-gray-50">
-          {children}
-        </main>
+        <main className="flex-1 container mx-auto px-4 py-8 bg-gray-50">{children}</main>
 
         <footer className="bg-gray-800 text-white mt-auto">
           <div className="container mx-auto px-4 py-6">
             <div className="text-center">
               <p className="text-gray-300">
-                © 2024 Drug Management System. Built with Next.js and Server Components.
+                &copy; 2024 Drug Management System. Built with Next.js and Server Components.
               </p>
-              <p className="text-gray-400 text-sm mt-2">
-                Jin Zhang - Assignment 5
-              </p>
+              <p className="text-gray-400 text-sm mt-2">Jin Zhang - Assignment 5</p>
             </div>
           </div>
         </footer>

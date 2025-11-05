@@ -7,30 +7,26 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
           Welcome to the Drug Management System
         </h1>
-        
+
         <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
           <p>
-            This application allows you to browse and manage pharmaceutical drug information 
-            using a modern Next.js application with server-side components.
+            This application allows you to browse and manage pharmaceutical drug information
+            using a modern Next.js application built entirely with Server Components and Server Actions.
           </p>
-          
-          <p>
-            Use the navigation above to:
-          </p>
-          
+
+          <p>Use the navigation above to:</p>
+
           <div className="bg-blue-50 p-6 rounded-lg mt-6">
-            <ul className="space-y-3 text-left">
-              <li className="flex items-start">
-                <span className="text-blue-600 font-semibold mr-3">📋</span>
-                <span><strong>Drugs:</strong> View all available drugs in a detailed table format</span>
+            <ul className="space-y-3 text-left list-disc list-inside text-gray-700">
+              <li>
+                <strong>Drugs:</strong> View all available drugs in a detailed table format.
               </li>
-              <li className="flex items-start">
-                <span className="text-blue-600 font-semibold mr-3">⚙️</span>
-                <span><strong>Admin:</strong> Add, edit, and delete drug information</span>
+              <li>
+                <strong>Admin:</strong> Add, edit, and delete drug information.
               </li>
             </ul>
           </div>
-          
+
           <p className="text-gray-500 text-sm mt-8">
             Built with Next.js 15, TypeScript, and Server Components
           </p>

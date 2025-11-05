@@ -19,6 +19,7 @@ export async function deleteDrug(formData: FormData) {
 
     // Revalidate the admin page and the specific drug detail page
     revalidatePath('/admin');
+    revalidatePath('/drugs');
     revalidatePath(`/drugs/${drugId}`);
     
   } catch (error) {
@@ -53,6 +54,7 @@ export async function createDrug(formData: FormData) {
 
     // Revalidate the admin page and the new drug detail page
     revalidatePath('/admin');
+    revalidatePath('/drugs');
     revalidatePath(`/drugs/${id}`);
     
   } catch (error) {
@@ -88,6 +90,7 @@ export async function updateDrug(drugId: string, formData: FormData) {
 
     // Revalidate the admin page and the drug detail page
     revalidatePath('/admin');
+    revalidatePath('/drugs');
     revalidatePath(`/drugs/${drugId}`);
     
   } catch (error) {
@@ -97,3 +100,5 @@ export async function updateDrug(drugId: string, formData: FormData) {
 
   redirect('/admin');
 }
+
+
